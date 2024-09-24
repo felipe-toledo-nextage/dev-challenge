@@ -7,7 +7,7 @@
 Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com funcionalidades de cadastro, listagem, edição e exclusão, variando em complexidade conforme o nível do desenvolvedor (Júnior, Pleno, Sênior).
 
 ## Instruções Gerais
-- Clone o projeto em seu próprio repositório.
+- Clone o projeto em seu próprio repositório (Não fazer Fork deste repositório).
 - Ao concluir, envie o link do repositório para o responsável técnico.
 - O projeto deve conter documentação clara e instruções para rodá-lo.
 - Para casos do projeto web deve ser responsivo para dispositivos mobiles.
