@@ -1,7 +1,7 @@
 
 <img src="https://github.com/user-attachments/assets/4ffe98d4-7f24-4558-901b-655eb0252954" alt="logobranca" width="600" height="150" />
 
-# Desafio de Programação - Stack Java / Angular e Node.js / React
+# Desafio de Programação - Stack Java / Angular /  Node.js / React / React Native
 
 ## Objetivo
 Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com funcionalidades de cadastro, listagem, edição e exclusão, variando em complexidade conforme o nível do desenvolvedor (Júnior, Pleno, Sênior).
@@ -10,12 +10,12 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - Clone o projeto em seu próprio repositório.
 - Ao concluir, envie o link do repositório para o responsável técnico.
 - O projeto deve conter documentação clara e instruções para rodá-lo.
-- O projeto web deve ser responsivo para dispositivos mobiles.
+- Para casos do projeto web deve ser responsivo para dispositivos mobiles.
 - Será avaliado conceitos de código limpo, modularização do código, boas práticas de arquitetura, utilização adequada de padrões de projeto, legibilidade, organização, e tratamento de erros.
 
 ---
 
-## 1. Desafio - Desenvolvedor Júnior (Node.js & React)
+## 1. Desafio - Desenvolvedor Júnior (Node.js & React ou React Native)
 
 ### Funcionalidades
 - **Cadastro de Produtos**
@@ -40,7 +40,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 
 ---
 
-## 2. Desafio - Desenvolvedor Pleno (Node.js & React)
+## 2. Desafio - Desenvolvedor Pleno (Node.js & React ou React Native)
 
 ### Funcionalidades
 - **Cadastro de Produtos com Imagem**
@@ -66,7 +66,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 
 ---
 
-## 3. Desafio - Desenvolvedor Sênior (Node.js & React)
+## 3. Desafio - Desenvolvedor Sênior (Node.js & React ou React Native)
 
 ### Funcionalidades
 - **Cadastro e Gerenciamento de Produtos**
