@@ -53,7 +53,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 
 ### Stack Tecnológica
 - Front-end: React ou React Native, Typescript, Axios, React Hook Form
-- Back-end: Node.js (AdonisJS), MySQL/PostgreSQL, Redis (opcional)
+- Back-end: Node.js (AdonisJS ou NestJS), MySQL/PostgreSQL, Redis (opcional)
 
 ### Rotas da API
 - `GET /products`: Lista todos os produtos com filtros avançados e paginação
