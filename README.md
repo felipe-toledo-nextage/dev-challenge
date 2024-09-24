@@ -24,7 +24,7 @@ Desenvolver uma aplicação web básica para gerenciamento de produtos, utilizan
    - Funcionalidade para editar e excluir produtos
 
 ### Stack Tecnológica
-- **Front-end:** Angular, Angular Material, HttpClient
+- **Front-end:** Angular, Typescript, Angular Material, HttpClient
 - **Back-end:** Java com Spring Boot, MySQL ou PostgreSQL (Spring Data JPA)
 
 ### Funcionalidades da API
@@ -49,7 +49,7 @@ Desenvolver uma aplicação web avançada com funcionalidades adicionais para o 
    - Visualização de alterações nos produtos
 
 ### Stack Tecnológica
-- **Front-end:** Angular, Angular Material, RxJS
+- **Front-end:** Angular, Typescript, Angular Material, RxJS
 - **Back-end:** Java com Spring Boot, MySQL ou PostgreSQL (Spring Data JPA e Spring Security)
 
 ### Funcionalidades da API
@@ -76,7 +76,7 @@ Desenvolver uma aplicação web robusta e escalável com funcionalidades avança
 5. **Notificações Push**
 
 ### Stack Tecnológica
-- **Front-end:** Angular, Angular Material, RxJS, NgRx
+- **Front-end:** Angular, Typescript, Angular Material, RxJS, NgRx
 - **Back-end:** Java com Spring Boot e Spring Cloud, RabbitMQ (opcional), Redis (opcional)
 
 ### Funcionalidades da API
@@ -103,8 +103,8 @@ Desenvolver uma aplicação básica para gerenciamento de produtos utilizando Re
    - Edição e exclusão de produtos
 
 ### Stack Tecnológica
-- **Front-end:** React ou React Native, Axios, React Hook Form
-- **Back-end:** Node.js (Express.js ou Koa.js), MySQL ou PostgreSQL (Sequelize)
+- **Front-end:** React ou React Native (Typescript), Axios, React Hook Form
+- **Back-end:** Node.js (Express.js, AdonisJS ou NestJS), MySQL ou PostgreSQL (Sequelize)
 
 ### Funcionalidades da API
 - `GET /products`: Lista todos os produtos
@@ -125,8 +125,8 @@ Desenvolver uma aplicação web avançada para gerenciamento de produtos.
 3. **Histórico de Alterações**
 
 ### Stack Tecnológica
-- **Front-end:** React ou React Native, Axios, React Hook Form
-- **Back-end:** Node.js (Express.js ou Koa.js), MySQL ou PostgreSQL, Redis (opcional)
+- **Front-end:** React ou React Native (Typescript), Axios, React Hook Form
+- **Back-end:** Node.js (AdonisJS), MySQL ou PostgreSQL, Redis (opcional)
 
 ---
 
@@ -143,7 +143,7 @@ Desenvolver uma aplicação web robusta e escalável com React ou React Native e
    - Gerenciamento de favoritos e notificações push
 
 ### Stack Tecnológica
-- **Front-end:** React ou React Native, React Hook Form
+- **Front-end:** React ou React Native (Typescript), React Hook Form
 - **Back-end:** Node.js (NestJS e Clean Architecture), PostgreSQL ou MySQL (TypeORM), RabbitMQ (opcional), Redis (opcional)
 
 ### Funcionalidades da API
