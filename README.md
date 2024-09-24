@@ -11,7 +11,7 @@ Este repositório contém desafios de programação para desenvolvedores de dife
 - Após finalizar o desafio, encaminhe o link do repositório para o responsável técnico.
 - Certifique-se de que o projeto esteja devidamente documentado com as instruções para rodá-lo.
 
-## Desafio - Desenvolvedor Júnior (Java & Angular)
+## 1. Desafio - Desenvolvedor Júnior (Java & Angular)
 ### Objetivo
 Desenvolver uma aplicação web básica para gerenciamento de produtos, utilizando Angular no front-end e Java com Spring Boot no back-end.
 
@@ -35,7 +35,7 @@ Desenvolver uma aplicação web básica para gerenciamento de produtos, utilizan
 
 ---
 
-## Desafio - Desenvolvedor Pleno (Java & Angular)
+## 2. Desafio - Desenvolvedor Pleno (Java & Angular)
 ### Objetivo
 Desenvolver uma aplicação web avançada com funcionalidades adicionais para o gerenciamento de produtos.
 
@@ -61,7 +61,7 @@ Desenvolver uma aplicação web avançada com funcionalidades adicionais para o 
 
 ---
 
-## Desafio - Desenvolvedor Sênior (Java & Angular)
+## 3. Desafio - Desenvolvedor Sênior (Java & Angular)
 ### Objetivo
 Desenvolver uma aplicação web robusta e escalável com funcionalidades avançadas.
 
@@ -91,7 +91,7 @@ Desenvolver uma aplicação web robusta e escalável com funcionalidades avança
 
 ---
 
-## Desafio - Desenvolvedor Júnior (Node.js & React)
+## 1. Desafio - Desenvolvedor Júnior (Node.js & React)
 ### Objetivo
 Desenvolver uma aplicação básica para gerenciamento de produtos utilizando React ou React Native no front-end e Node.js no back-end.
 
@@ -114,7 +114,7 @@ Desenvolver uma aplicação básica para gerenciamento de produtos utilizando Re
 
 ---
 
-## Desafio - Desenvolvedor Pleno (Node.js & React)
+## 2. Desafio - Desenvolvedor Pleno (Node.js & React)
 ### Objetivo
 Desenvolver uma aplicação web avançada para gerenciamento de produtos.
 
@@ -130,7 +130,7 @@ Desenvolver uma aplicação web avançada para gerenciamento de produtos.
 
 ---
 
-## Desafio - Desenvolvedor Sênior (Node.js & React)
+## 3. Desafio - Desenvolvedor Sênior (Node.js & React)
 ### Objetivo
 Desenvolver uma aplicação web robusta e escalável com React ou React Native e Node.js (NestJS).
 
