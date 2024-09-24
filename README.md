@@ -10,6 +10,8 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - Clone o projeto em seu próprio repositório.
 - Ao concluir, envie o link do repositório para o responsável técnico.
 - O projeto deve conter documentação clara e instruções para rodá-lo.
+- O projeto web deve ser responsivo para dispositivos mobiles.
+- Será avaliado conceitos de código limpo, modularização do código, boas práticas de arquitetura, utilização adequada de padrões de projeto, legibilidade, organização, e tratamento de erros.
 
 ---
 
