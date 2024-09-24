@@ -1,7 +1,7 @@
 
 <img src="https://github.com/user-attachments/assets/4ffe98d4-7f24-4558-901b-655eb0252954" alt="logobranca" width="600" height="150" />
 
-# Desafio de Programação - Stack Java e Node.js
+# Desafio de Programação - Stack Java / Angular e Node.js / React
 
 ## Objetivo
 Este repositório contém desafios de programação para desenvolvedores de diferentes níveis (Júnior, Pleno e Sênior), envolvendo a criação de uma aplicação web ou mobile para o gerenciamento de produtos. Dependendo do nível, as funcionalidades variam em complexidade e uso de tecnologias avançadas.
@@ -11,7 +11,7 @@ Este repositório contém desafios de programação para desenvolvedores de dife
 - Após finalizar o desafio, encaminhe o link do repositório para o responsável técnico.
 - Certifique-se de que o projeto esteja devidamente documentado com as instruções para rodá-lo.
 
-## Desafio - Desenvolvedor Júnior (Java)
+## Desafio - Desenvolvedor Júnior (Java & Angular)
 ### Objetivo
 Desenvolver uma aplicação web básica para gerenciamento de produtos, utilizando Angular no front-end e Java com Spring Boot no back-end.
 
@@ -35,7 +35,7 @@ Desenvolver uma aplicação web básica para gerenciamento de produtos, utilizan
 
 ---
 
-## Desafio - Desenvolvedor Pleno (Java)
+## Desafio - Desenvolvedor Pleno (Java & Angular)
 ### Objetivo
 Desenvolver uma aplicação web avançada com funcionalidades adicionais para o gerenciamento de produtos.
 
@@ -61,7 +61,7 @@ Desenvolver uma aplicação web avançada com funcionalidades adicionais para o 
 
 ---
 
-## Desafio - Desenvolvedor Sênior (Java)
+## Desafio - Desenvolvedor Sênior (Java & Angular)
 ### Objetivo
 Desenvolver uma aplicação web robusta e escalável com funcionalidades avançadas.
 
@@ -91,7 +91,7 @@ Desenvolver uma aplicação web robusta e escalável com funcionalidades avança
 
 ---
 
-## Desafio - Desenvolvedor Júnior (Node.js)
+## Desafio - Desenvolvedor Júnior (Node.js & React)
 ### Objetivo
 Desenvolver uma aplicação básica para gerenciamento de produtos utilizando React ou React Native no front-end e Node.js no back-end.
 
@@ -114,7 +114,7 @@ Desenvolver uma aplicação básica para gerenciamento de produtos utilizando Re
 
 ---
 
-## Desafio - Desenvolvedor Pleno (Node.js)
+## Desafio - Desenvolvedor Pleno (Node.js & React)
 ### Objetivo
 Desenvolver uma aplicação web avançada para gerenciamento de produtos.
 
@@ -130,7 +130,7 @@ Desenvolver uma aplicação web avançada para gerenciamento de produtos.
 
 ---
 
-## Desafio - Desenvolvedor Sênior (Node.js)
+## Desafio - Desenvolvedor Sênior (Node.js & React)
 ### Objetivo
 Desenvolver uma aplicação web robusta e escalável com React ou React Native e Node.js (NestJS).
 
