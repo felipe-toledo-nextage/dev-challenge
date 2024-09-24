@@ -1,3 +1,6 @@
+
+![logo](https://github.com/user-attachments/assets/13574b1c-f42d-48f9-9f2a-8845f1bdcf65)
+
 # Desafio de Programação - Stack Java e Node.js
 
 ## Objetivo
