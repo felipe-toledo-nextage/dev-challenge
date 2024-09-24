@@ -46,7 +46,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - **Cadastro de Produtos com Imagem**
   - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
   - Campos opcionais: Descrição
-  - Validação avançada de campos.
+  - Validação avançada de campos (tamanho de texto, tipos de dados).
 - **Listagem de Produtos com Filtros Avançados**
   - Paginação e carregamento infinito.
 - **Histórico de Alterações**
@@ -72,6 +72,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - **Cadastro e Gerenciamento de Produtos**
   - Campos obrigatórios: Nome, Preço, Quantidade, Imagem ( Upload de imagem com preview )
   - Campos opcionais: Descrição
+  - Validação avançada de campos (tamanho de texto, tipos de dados).
 - **Listagem de Produtos**
   - Filtros avançados com paginação infinita.
 - **Favoritos e Recomendações**
@@ -154,6 +155,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - **Cadastro e Gerenciamento de Produtos**
   - Campos obrigatórios: Nome, Preço, Quantidade, Imagem (Com preview)
   - Campos opcionais: Descrição
+  - Validação avançada de campos (tamanho de texto, tipos de dados).
 - **Listagem de Produtos**
   - Filtros avançados com paginação infinita.
 - **Histórico de Alterações**
