@@ -173,4 +173,4 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 ## Instruções de Implementação
 1. Clone o repositório para seu próprio ambiente:
    ```bash
-   git clone <url-do-seu-repositorio>
+   git clone <url-do-repositorio>
