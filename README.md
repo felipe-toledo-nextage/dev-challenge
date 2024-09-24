@@ -20,6 +20,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 ### Funcionalidades
 - **Cadastro de Produtos**
   - Campos obrigatórios: Nome, Preço, Quantidade
+  - Campos opcionais: Descrição
   - Validação de todos os campos.
 - **Listagem de Produtos**
   - Filtros simples: Nome, Preço
@@ -33,6 +34,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - `GET /products`: Lista todos os produtos
 - `POST /products`: Cadastra um novo produto
   - Campos obrigatórios: Nome, Preço, Quantidade
+  - Campos opcionais: Descrição
 - `PUT /products/{id}`: Atualiza dados de um produto
 - `DELETE /products/{id}`: Exclui um produto
 
@@ -43,6 +45,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 ### Funcionalidades
 - **Cadastro de Produtos com Imagem**
   - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+  - Campos opcionais: Descrição
   - Validação avançada de campos.
 - **Listagem de Produtos com Filtros Avançados**
   - Paginação e carregamento infinito.
@@ -56,6 +59,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - `GET /products`: Lista todos os produtos com filtros avançados e paginação
 - `POST /products`: Cadastra um novo produto com imagem
   - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+  - Campos opcionais: Descrição
 - `PUT /products/{id}`: Atualiza dados de um produto e registra alterações
 - `DELETE /products/{id}`: Exclui um produto
 - `GET /history`: Lista histórico de alterações
@@ -66,7 +70,8 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 
 ### Funcionalidades
 - **Cadastro e Gerenciamento de Produtos**
-  - Upload de imagem com preview.
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem ( Upload de imagem com preview )
+  - Campos opcionais: Descrição
 - **Listagem de Produtos**
   - Filtros avançados com paginação infinita.
 - **Favoritos e Recomendações**
@@ -80,6 +85,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - `GET /products`: Lista todos os produtos com filtros avançados e paginação
 - `POST /products`: Cadastra um novo produto com imagem
   - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+  - Campos opcionais: Descrição
 - `PUT /products/{id}`: Atualiza dados de um produto e registra alterações
 - `DELETE /products/{id}`: Exclui um produto
 - `GET /history`: Lista histórico de alterações
@@ -146,7 +152,8 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 
 ### Funcionalidades
 - **Cadastro e Gerenciamento de Produtos**
-  - Upload de imagem com preview.
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem (Com preview)
+  - Campos opcionais: Descrição
 - **Listagem de Produtos**
   - Filtros avançados com paginação infinita.
 - **Histórico de Alterações**
