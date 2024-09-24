@@ -4,87 +4,92 @@
 # Desafio de Programação - Stack Java / Angular e Node.js / React
 
 ## Objetivo
-Este repositório contém desafios de programação para desenvolvedores de diferentes níveis (Júnior, Pleno e Sênior), envolvendo a criação de uma aplicação web ou mobile para o gerenciamento de produtos. Dependendo do nível, as funcionalidades variam em complexidade e uso de tecnologias avançadas.
+Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com funcionalidades de cadastro, listagem, edição e exclusão, variando em complexidade conforme o nível do desenvolvedor (Júnior, Pleno, Sênior).
 
 ## Instruções Gerais
-- **Não faça um fork deste repositório.** Em vez disso, clone o projeto para seu próprio repositório.
-- Após finalizar o desafio, encaminhe o link do repositório para o responsável técnico.
-- Certifique-se de que o projeto esteja devidamente documentado com as instruções para rodá-lo.
+- Clone o projeto em seu próprio repositório.
+- Ao concluir, envie o link do repositório para o responsável técnico.
+- O projeto deve conter documentação clara e instruções para rodá-lo.
+
+---
 
 ## 1. Desafio - Desenvolvedor Júnior (Java & Angular)
-### Objetivo
-Desenvolver uma aplicação web básica para gerenciamento de produtos, utilizando Angular no front-end e Java com Spring Boot no back-end.
 
 ### Funcionalidades
-1. **Cadastro de Produtos:**
-   - Campos: Nome (obrigatório), Descrição (opcional), Preço (obrigatório), Quantidade (obrigatório)
-   - Validação dos campos
-2. **Listagem de Produtos:**
-   - Filtros simples (nome e preço)
-   - Funcionalidade para editar e excluir produtos
+- **Cadastro de Produtos**
+  - Campos obrigatórios: Nome, Preço, Quantidade
+  - Campos opcionais: Descrição
+  - Validação: Todos os campos obrigatórios devem ser preenchidos corretamente.
+- **Listagem de Produtos**
+  - Filtros: Nome, Preço
+- Funcionalidade de edição e exclusão de produtos.
 
 ### Stack Tecnológica
-- **Front-end:** Angular, Typescript, Angular Material, HttpClient
-- **Back-end:** Java com Spring Boot, MySQL ou PostgreSQL (Spring Data JPA)
+- Front-end: Angular, Typescript, Angular Material
+- Back-end: Java com Spring Boot, MySQL/PostgreSQL (Spring Data JPA)
 
-### Funcionalidades da API
+### Rotas da API
 - `GET /products`: Lista todos os produtos
 - `POST /products`: Cadastra um novo produto
-- `PUT /products`: Atualiza dados de um produto
-- `DELETE /products`: Exclui um produto
+  - Campos obrigatórios: Nome, Preço, Quantidade
+  - Campos opcionais: Descrição
+- `PUT /products/{id}`: Atualiza dados de um produto
+- `DELETE /products/{id}`: Exclui um produto
 
 ---
 
 ## 2. Desafio - Desenvolvedor Pleno (Java & Angular)
-### Objetivo
-Desenvolver uma aplicação web avançada com funcionalidades adicionais para o gerenciamento de produtos.
 
 ### Funcionalidades
-1. **Cadastro de Produtos com Imagem**
-   - Validação avançada dos campos
-2. **Listagem de Produtos:**
-   - Filtros avançados (nome, preço, quantidade, data de adição)
-   - Exibição de imagens dos produtos
-3. **Histórico de Alterações:**
-   - Visualização de alterações nos produtos
+- **Cadastro de Produtos com Imagem**
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+  - Campos opcionais: Descrição
+  - Validação avançada de campos (tamanho de texto, tipos de dados).
+- **Listagem de Produtos**
+  - Filtros avançados: Nome, Preço, Quantidade, Data de adição
+  - Exibição de imagens dos produtos.
+- **Histórico de Alterações**
+  - Visualização de histórico de alterações dos produtos.
 
 ### Stack Tecnológica
-- **Front-end:** Angular, Typescript, Angular Material, RxJS
-- **Back-end:** Java com Spring Boot, MySQL ou PostgreSQL (Spring Data JPA e Spring Security)
+- Front-end: Angular, Typescript, Angular Material, RxJS
+- Back-end: Java com Spring Boot, MySQL/PostgreSQL, Spring Security
 
-### Funcionalidades da API
-- `GET /products`: Lista produtos com filtros e paginação
+### Rotas da API
+- `GET /products`: Lista todos os produtos com filtros e paginação
 - `POST /products`: Cadastra um novo produto com imagem
-- `PUT /products`: Atualiza dados de um produto e registra alterações
-- `DELETE /products`: Exclui um produto
-- `GET /history`: Lista histórico de alterações
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+  - Campos opcionais: Descrição
+- `PUT /products/{id}`: Atualiza dados de um produto e registra alterações
+- `DELETE /products/{id}`: Exclui um produto
+- `GET /history`: Lista o histórico de alterações dos produtos
 
 ---
 
 ## 3. Desafio - Desenvolvedor Sênior (Java & Angular)
-### Objetivo
-Desenvolver uma aplicação web robusta e escalável com funcionalidades avançadas.
 
 ### Funcionalidades
-1. **Cadastro e Gerenciamento de Produtos:**
-   - Upload de imagem com preview
-2. **Listagem de Produtos:**
-   - Filtros avançados e paginação infinita
-3. **Histórico de Alterações**
-4. **Favoritos e Recomendações:**
-   - Gerenciamento de favoritos e recomendações baseadas no histórico
-5. **Notificações Push**
+- **Cadastro e Gerenciamento de Produtos**
+  - Upload de imagem com preview.
+- **Listagem de Produtos**
+  - Filtros avançados com paginação infinita.
+- **Histórico de Alterações**
+- **Favoritos e Recomendações**
+  - Gerenciamento de produtos favoritos e recomendações com base no histórico.
+- **Notificações Push**
 
 ### Stack Tecnológica
-- **Front-end:** Angular, Typescript, Angular Material, RxJS, NgRx
-- **Back-end:** Java com Spring Boot e Spring Cloud, RabbitMQ (opcional), Redis (opcional)
+- Front-end: Angular, Typescript, Angular Material, RxJS, NgRx
+- Back-end: Java com Spring Boot, Spring Cloud, RabbitMQ (opcional), Redis (opcional)
 
-### Funcionalidades da API
-- `GET /products`: Lista produtos com filtros avançados e paginação
+### Rotas da API
+- `GET /products`: Lista todos os produtos com filtros avançados e paginação
 - `POST /products`: Cadastra um novo produto com imagem e histórico
-- `PUT /products`: Atualiza dados do produto e registra alterações
-- `DELETE /products`: Exclui um produto
-- `GET /history`: Lista o histórico de alterações
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+  - Campos opcionais: Descrição
+- `PUT /products/{id}`: Atualiza dados do produto e registra alterações
+- `DELETE /products/{id}`: Exclui um produto
+- `GET /history`: Lista histórico de alterações
 - `GET /favorites`: Lista produtos favoritos
 - `POST /favorites`: Adiciona produto aos favoritos
 - `GET /recommendations`: Lista produtos recomendados
@@ -92,65 +97,72 @@ Desenvolver uma aplicação web robusta e escalável com funcionalidades avança
 ---
 
 ## 1. Desafio - Desenvolvedor Júnior (Node.js & React)
-### Objetivo
-Desenvolver uma aplicação básica para gerenciamento de produtos utilizando React ou React Native no front-end e Node.js no back-end.
 
 ### Funcionalidades
-1. **Cadastro de Produtos:**
-   - Validação de campos (Nome, Preço, Quantidade)
-2. **Listagem de Produtos:**
-   - Filtros simples (nome e preço)
-   - Edição e exclusão de produtos
+- **Cadastro de Produtos**
+  - Campos obrigatórios: Nome, Preço, Quantidade
+  - Validação de todos os campos.
+- **Listagem de Produtos**
+  - Filtros simples: Nome, Preço
+- Funcionalidade de edição e exclusão de produtos.
 
 ### Stack Tecnológica
-- **Front-end:** React ou React Native (Typescript), Axios, React Hook Form
-- **Back-end:** Node.js (Express.js, AdonisJS ou NestJS), MySQL ou PostgreSQL (Sequelize)
+- Front-end: React ou React Native, Typescript, Axios, React Hook Form
+- Back-end: Node.js (Express.js, AdonisJS ou NestJS), MySQL/PostgreSQL (Sequelize)
 
-### Funcionalidades da API
+### Rotas da API
 - `GET /products`: Lista todos os produtos
 - `POST /products`: Cadastra um novo produto
-- `PUT /products`: Atualiza dados de um produto
-- `DELETE /products`: Exclui um produto
+  - Campos obrigatórios: Nome, Preço, Quantidade
+- `PUT /products/{id}`: Atualiza dados de um produto
+- `DELETE /products/{id}`: Exclui um produto
 
 ---
 
 ## 2. Desafio - Desenvolvedor Pleno (Node.js & React)
-### Objetivo
-Desenvolver uma aplicação web avançada para gerenciamento de produtos.
 
 ### Funcionalidades
-1. **Cadastro de Produtos com Imagem**
-2. **Listagem de Produtos com Filtros Avançados:**
-   - Paginação e carregamento infinito
-3. **Histórico de Alterações**
+- **Cadastro de Produtos com Imagem**
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+  - Validação avançada de campos.
+- **Listagem de Produtos com Filtros Avançados**
+  - Paginação e carregamento infinito.
+- **Histórico de Alterações**
 
 ### Stack Tecnológica
-- **Front-end:** React ou React Native (Typescript), Axios, React Hook Form
-- **Back-end:** Node.js (AdonisJS), MySQL ou PostgreSQL, Redis (opcional)
+- Front-end: React ou React Native, Typescript, Axios, React Hook Form
+- Back-end: Node.js (AdonisJS), MySQL/PostgreSQL, Redis (opcional)
+
+### Rotas da API
+- `GET /products`: Lista todos os produtos com filtros avançados e paginação
+- `POST /products`: Cadastra um novo produto com imagem
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+- `PUT /products/{id}`: Atualiza dados de um produto e registra alterações
+- `DELETE /products/{id}`: Exclui um produto
+- `GET /history`: Lista histórico de alterações
 
 ---
 
 ## 3. Desafio - Desenvolvedor Sênior (Node.js & React)
-### Objetivo
-Desenvolver uma aplicação web robusta e escalável com React ou React Native e Node.js (NestJS).
 
 ### Funcionalidades
-1. **Cadastro e Gerenciamento de Produtos:**
-   - Upload de imagem com preview
-2. **Listagem de Produtos:**
-   - Filtros avançados e paginação infinita
-3. **Favoritos e Recomendações:**
-   - Gerenciamento de favoritos e notificações push
+- **Cadastro e Gerenciamento de Produtos**
+  - Upload de imagem com preview.
+- **Listagem de Produtos**
+  - Filtros avançados com paginação infinita.
+- **Favoritos e Recomendações**
+  - Gerenciamento de produtos favoritos e notificações push.
 
 ### Stack Tecnológica
-- **Front-end:** React ou React Native (Typescript), React Hook Form
-- **Back-end:** Node.js (NestJS e Clean Architecture), PostgreSQL ou MySQL (TypeORM), RabbitMQ (opcional), Redis (opcional)
+- Front-end: React ou React Native, Typescript, React Hook Form, React Query ou Redux Saga.
+- Back-end: Node.js (NestJS e Clean Architecture), MySQL/PostgreSQL (TypeORM), RabbitMQ (opcional), Redis (opcional)
 
-### Funcionalidades da API
-- `GET /products`: Lista produtos com filtros avançados e paginação
+### Rotas da API
+- `GET /products`: Lista todos os produtos com filtros avançados e paginação
 - `POST /products`: Cadastra um novo produto com imagem
-- `PUT /products`: Atualiza dados e registra alterações
-- `DELETE /products`: Exclui um produto
+  - Campos obrigatórios: Nome, Preço, Quantidade, Imagem
+- `PUT /products/{id}`: Atualiza dados de um produto e registra alterações
+- `DELETE /products/{id}`: Exclui um produto
 - `GET /history`: Lista histórico de alterações
 - `GET /favorites`: Lista produtos favoritos
 - `POST /favorites`: Adiciona produto aos favoritos
