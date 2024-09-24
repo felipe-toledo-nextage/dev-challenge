@@ -1,5 +1,5 @@
 
-![logo](https://github.com/user-attachments/assets/13574b1c-f42d-48f9-9f2a-8845f1bdcf65)
+<img src="https://github.com/user-attachments/assets/4ffe98d4-7f24-4558-901b-655eb0252954" alt="logobranca" width="200" height="200" />
 
 # Desafio de Programação - Stack Java e Node.js
 
