@@ -79,7 +79,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 
 ### Stack Tecnológica
 - Front-end: React ou React Native, Typescript, React Hook Form, React Query ou Redux Saga o front-end deverá ser hospedado de maneira gratuita na plataforma Vercel.
-- Back-end: Hospedado na AWS utilizando o nível gratuito, AWS Lambda para arquitetura serverless, AWS API Gateway e AWS RDS MySQL, AWS RDS PostgreSQL ou AWS DynamoDB como banco de dados.
+- Back-end: NodeJS, hospedagem na AWS utilizando o nível gratuito, AWS Lambda para arquitetura serverless, AWS API Gateway e AWS RDS MySQL, AWS RDS PostgreSQL ou AWS DynamoDB como banco de dados.
 
 ### Rotas da API
 - `GET /products`: Lista todos os produtos com filtros avançados e paginação
