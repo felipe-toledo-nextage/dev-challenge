@@ -49,6 +49,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
   - Validação avançada de campos (tamanho de texto, tipos de dados).
 - **Listagem de Produtos com Filtros Avançados**
   - Paginação e carregamento infinito.
+- Funcionalidade de edição e exclusão de produtos.
 - **Histórico de Alterações**
 
 ### Stack Tecnológica
@@ -75,6 +76,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
   - Validação avançada de campos (tamanho de texto, tipos de dados).
 - **Listagem de Produtos**
   - Filtros avançados com paginação infinita.
+- Funcionalidade de edição e exclusão de produtos.
 - **Favoritos e Recomendações**
   - Gerenciamento de produtos favoritos e notificações push.
 
@@ -103,6 +105,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
   - Campos obrigatórios: Nome, Preço, Quantidade
   - Campos opcionais: Descrição
   - Validação: Todos os campos obrigatórios devem ser preenchidos corretamente.
+- Funcionalidade de edição e exclusão de produtos.
 - **Listagem de Produtos**
   - Filtros: Nome, Preço
 - Funcionalidade de edição e exclusão de produtos.
@@ -131,6 +134,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
 - **Listagem de Produtos**
   - Filtros avançados: Nome, Preço, Quantidade, Data de adição
   - Exibição de imagens dos produtos.
+- Funcionalidade de edição e exclusão de produtos.
 - **Histórico de Alterações**
   - Visualização de histórico de alterações dos produtos.
 
@@ -158,6 +162,7 @@ Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com fun
   - Validação avançada de campos (tamanho de texto, tipos de dados).
 - **Listagem de Produtos**
   - Filtros avançados com paginação infinita.
+- Funcionalidade de edição e exclusão de produtos.
 - **Histórico de Alterações**
 - **Favoritos e Recomendações**
   - Gerenciamento de produtos favoritos e recomendações com base no histórico.
