@@ -1,7 +1,7 @@
 
 <img src="https://github.com/user-attachments/assets/4ffe98d4-7f24-4558-901b-655eb0252954" alt="logobranca" width="600" height="150" />
 
-# Desafio de Programação - Stack Java / Angular /  Node.js / React / React Native
+# Desafio de Programação. - Stack Java / Angular /  Node.js / React / React Native
 
 ## Objetivo
 Desenvolver uma aplicação web ou mobile para gerenciamento de produtos com funcionalidades de cadastro, listagem, edição e exclusão, variando em complexidade conforme o nível do desenvolvedor (Júnior, Pleno, Sênior).
